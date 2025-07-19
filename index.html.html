@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chemistry Experiment Animation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    .cloud-title {
+      display: inline-block;
+      background-color: #ffffff;
+      border: 4px solid black;
+      border-radius: 100px;
+      padding: 30px 50px;
+      font-size: 2.2em;
+      font-weight: bold;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      margin: 10px 0 30px;
+      color: #444;
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      margin-top: 50px;
+      color: #2c3e50;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #2980b9;
+      margin: 10px auto 20px;
+    }
+
+    .poster-container {
+      background-color: #fff;
+      border: 2px dashed #2980b9;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+    }
+
+    .poster-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .video-container {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .video-block {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    .video-block h3 {
+      margin-bottom: 10px;
+      font-size: 1.3em;
+      color: #2c3e50;
+    }
+
+    iframe {
+      width: 100%;
+      height: 405px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 1em;
+      color: #555;
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .cloud-title {
+        font-size: 1.6em;
+        padding: 20px 30px;
+      }
+
+      iframe {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cloud-title">Chemistry Experiment Animation</div>
+  <div class="subtitle">ChemFunDay project</div>
+
+  <div class="section-title">Poster Of Our Project</div>
+  <div class="poster-container">
+    <!-- Replace this image URL with your actual poster image -->
+    <img src="https://via.placeholder.com/800x500?text=Your+Poster+Design+Here" alt="Project Poster" class="poster-image">
+  </div>
+
+  <div class="section-title">Experiment Videos</div>
+  <div class="video-container">
+
+    <div class="video-block">
+      <h3>Neutralization</h3>
+      <iframe src="https://drive.google.com/file/d/1ReupAWG7RwThxwRV0miIwonfFxCd88uU/preview" allow="autoplay"></iframe>
+    </div>
+
+    <div class="video-block">
+      <h3>Empirical Formula</h3>
+      <iframe src="https://drive.google.com/file/d/1Z4R3zepsMcOtWb5qsOgZ06eyp7uzWA38/preview" allow="autoplay"></iframe>
+    </div>
+
+    <div class="video-block">
+      <h3>Galvanic Cell</h3>
+      <iframe src="https://drive.google.com/file/d/13lVaBp1VZw910YuyzjBwNtlxc4xoAyPM/preview" allow="autoplay"></iframe>
+    </div>
+
+    <div class="video-block">
+      <h3>Electrolysis</h3>
+      <iframe src="https://drive.google.com/file/d/1Zo3Vm9HwxaE8JrCLtmA_mtMejsGyAhwJ/preview" allow="autoplay"></iframe>
+    </div>
+
+  </div>
+
+  <footer>
+    Prepared by <strong>Chem Craft Boys</strong>
+  </footer>
+
+</body>
+</html>
